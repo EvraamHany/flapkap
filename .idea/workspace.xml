@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a3ea50a-fada-4860-8020-cc4ca52dcb74" name="Default Changelist" comment="add backend">
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/PurchaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/exceptions/NotExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/exceptions/NotValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/PurchaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/PurchaseResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/PurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/flapkap/demo/controller/PurchaseControllerIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bsf.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/config/JacksonConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/controller/AccountController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/controller/TransferController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/controllerAdvisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controllerAdvisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/exceptions/AccountNotExist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/exceptions/NotValidTransaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/model/Transfer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/model/TransferResponseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/repository/AccountRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/repository/TransferRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/repository/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/service/TransferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bsf.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/TestUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/controller/AccountControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/controller/TransferControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/service/AccountServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/service/TransferServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.3-bin/1iopthnavndlasol9gbrbg6bf2/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FlCqLJNvzSMjazLb504EfAJOZU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.data.extractors.current.export.id" value="SQL Updates" />
+    <property name="database.data.extractors.current.id" value="SQL Updates" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="flapkap.demo.exceptions" />
+      <recent name="bsf.digital.bsffinance.service" />
+      <recent name="bsf.digital.bsffinance.controller" />
+      <recent name="bsf.digital.bsffinance.exceptions" />
+      <recent name="bsf.digital.bsffinance.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PurchaseControllerIntegrationTest.testProcessPurchase">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flapkap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flapkap.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="flapkap.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="flapkap.demo.controller.PurchaseControllerIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseControllerIntegrationTest.testProcessPurchase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flapkap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flapkap.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="flapkap.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="flapkap.demo.controller.PurchaseControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="testProcessPurchase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseControllerIntegrationTest.testPurchaseProduct (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flapkap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="flapkap.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="flapkap.demo.controller" />
+      <option name="MAIN_CLASS_NAME" value="flapkap.demo.controller.PurchaseControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="testPurchaseProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseControllerIntegrationTest.testPurchaseProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flapkap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bsf.digital.bsffinance.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bsf.digital.bsffinance.controller" />
+      <option name="MAIN_CLASS_NAME" value="bsf.digital.bsffinance.controller.PurchaseControllerIntegrationTest" />
+      <option name="METHOD_NAME" value="testPurchaseProduct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flapkap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="bsf.digital.bsffinance.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flapkap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="flapkap.demo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="flapkap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="flapkap.demo.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="$PROJECT_DIR$/src/main/resources/static/bsf.yaml" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.PurchaseControllerIntegrationTest.testPurchaseProduct" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="JUnit.PurchaseControllerIntegrationTest.testPurchaseProduct (1)" />
+      <item itemvalue="JUnit.PurchaseControllerIntegrationTest" />
+      <item itemvalue="JUnit.PurchaseControllerIntegrationTest.testProcessPurchase" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PurchaseControllerIntegrationTest.testProcessPurchase" />
+        <item itemvalue="JUnit.PurchaseControllerIntegrationTest" />
+        <item itemvalue="JUnit.PurchaseControllerIntegrationTest.testPurchaseProduct (1)" />
+        <item itemvalue="JUnit.PurchaseControllerIntegrationTest.testPurchaseProduct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a3ea50a-fada-4860-8020-cc4ca52dcb74" name="Default Changelist" comment="" />
+      <created>1665057473543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665057473543</updated>
+      <workItem from="1665057474969" duration="20055000" />
+      <workItem from="1665078174447" duration="1187000" />
+      <workItem from="1692045004122" duration="2867000" />
+      <workItem from="1692366171528" duration="557000" />
+      <workItem from="1694821219540" duration="14285000" />
+      <workItem from="1694966875787" duration="4984000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="384" y="117" key="#Project_Structure" timestamp="1694969113409">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="384" y="117" key="#Project_Structure/0.25.1792.1027@0.25.1792.1027" timestamp="1694969113409" />
+    <state x="334" y="258" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1694969054756">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="334" y="258" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694969054756" />
+    <state x="709" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1694970628689">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="709" y="226" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1027@0.25.1792.1027" timestamp="1694970628689" />
+    <state x="521" y="25" width="830" height="1027" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1694898954232">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="521" y="25" width="830" height="1027" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694898954232" />
+    <state x="634" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1694822659381">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="634" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694822659381" />
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom" timestamp="1694971111120">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111120" />
+    <state width="1750" height="342" key="GridCell.Tab.0.center" timestamp="1694971111119">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.center/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111119" />
+    <state width="1750" height="342" key="GridCell.Tab.0.left" timestamp="1694971111118">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.left/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111118" />
+    <state width="1750" height="342" key="GridCell.Tab.0.right" timestamp="1694971111119">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.0.right/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111119" />
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1694971067435">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067435" />
+    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1694971067434">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.center/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067434" />
+    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1694971067434">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.left/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067434" />
+    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1694971067435">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="1750" height="342" key="GridCell.Tab.1.right/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067435" />
+    <state width="232" height="457" key="HiddenNamespacesPopup" timestamp="1694968299353">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="232" height="457" key="HiddenNamespacesPopup/0.25.1792.1027@0.25.1792.1027" timestamp="1694968299353" />
+    <state x="754" y="245" key="RollbackChangesDialog" timestamp="1694821247987">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="754" y="245" key="RollbackChangesDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694821247987" />
+    <state x="597" y="264" width="597" height="548" key="find.popup" timestamp="1694975270714">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="597" y="264" width="597" height="548" key="find.popup/0.25.1792.1027@0.25.1792.1027" timestamp="1694975270714" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1694874742224">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.25.1792.1027@0.25.1792.1027" timestamp="1694874742224" />
+    <state x="302" y="198" key="new project wizard" timestamp="1692045821726">
+      <screen x="0" y="25" width="1792" height="1035" />
+    </state>
+    <state x="302" y="198" key="new project wizard/0.25.1792.1035@0.25.1792.1035" timestamp="1692045821726" />
+    <state x="561" y="248" width="670" height="675" key="run.anything.popup" timestamp="1694969090642">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="561" y="248" width="670" height="675" key="run.anything.popup/0.25.1792.1027@0.25.1792.1027" timestamp="1694969090642" />
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1694968096312">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.25.1792.1027@0.25.1792.1027" timestamp="1694968096312" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flapkap/demo/controllerAdvisor.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/flapkap/demo/service/PurchaseService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/flapkap/demo/controller/PurchaseControllerIntegrationTest.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

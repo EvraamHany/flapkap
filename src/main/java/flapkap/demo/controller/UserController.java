@@ -4,6 +4,9 @@ import flapkap.demo.model.User;
 import flapkap.demo.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -36,6 +39,13 @@ public class UserController {
     @DeleteMapping("/user/{id}")
     public ResponseEntity<User> deleteUser(Long id) {
         userService.deleteUser(id);
+        return ResponseEntity.status(200).build();
+    }
+
+    @PreAuthorize("hasRole('BUYER')")
+    @PutMapping("/user/reset")
+    public ResponseEntity<User> resetUser() {
+        userService.resetUser();
         return ResponseEntity.status(200).build();
     }
 

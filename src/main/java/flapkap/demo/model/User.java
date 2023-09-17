@@ -12,7 +12,7 @@ import java.util.Collection;
 import java.util.Collections;
 
 @Entity
-@Table(name = "user")
+@Table(name = "account")
 public class User implements Serializable, UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "sequenceGenerator")
@@ -31,6 +31,10 @@ public class User implements Serializable, UserDetails {
         this.username = username;
         this.password = password;
         this.role = role;
+    }
+
+    public User() {
+
     }
 
     public Long getId() {

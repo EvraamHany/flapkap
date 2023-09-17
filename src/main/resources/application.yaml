@@ -6,7 +6,7 @@ spring:
 #  datasource:
 #    url: jdbc:postgresql://localhost:5432/flapkap
 #    username: postgres
-#    password: pgpassword
+#    password: password
 
 
   h2:

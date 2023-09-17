@@ -23,7 +23,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/api/user/**").authenticated()
                 .antMatchers("/api/product/**").permitAll()
-                .antMatchers("/api/buy").permitAll()
+                .antMatchers("/api/buy").authenticated()
                 .and()
                 .formLogin()
                 .and()
@@ -40,5 +40,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
-
 }

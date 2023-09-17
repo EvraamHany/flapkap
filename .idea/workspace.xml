@@ -22,73 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a3ea50a-fada-4860-8020-cc4ca52dcb74" name="Default Changelist" comment="add backend">
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/PurchaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/exceptions/NotExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/exceptions/NotValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/PurchaseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/PurchaseResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/repository/UserRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/PurchaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/flapkap/demo/controller/PurchaseControllerIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bsf.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="9a3ea50a-fada-4860-8020-cc4ca52dcb74" name="Default Changelist" comment="refactor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/config/JacksonConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/controller/AccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/controller/TransferController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/controllerAdvisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controllerAdvisor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/exceptions/AccountNotExist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/exceptions/NotValidTransaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/model/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/model/Transfer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/model/TransferResponseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/repository/AccountRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/repository/TransferRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/repository/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/service/AccountService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bsf/digital/bsffinance/service/TransferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flapkap/demo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/flapkap/demo/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/bsf.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/TestUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/controller/AccountControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/controller/TransferControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/service/AccountServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bsf.digital.bsffinance/service/TransferServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/flapkap/demo/controller/PurchaseControllerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/flapkap/demo/controller/PurchaseControllerIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="postgresql&#10;h2" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -162,7 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PurchaseControllerIntegrationTest.testProcessPurchase">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -309,8 +250,16 @@
       <workItem from="1692045004122" duration="2867000" />
       <workItem from="1692366171528" duration="557000" />
       <workItem from="1694821219540" duration="14285000" />
-      <workItem from="1694966875787" duration="4984000" />
+      <workItem from="1694966875787" duration="8515000" />
     </task>
+    <task id="LOCAL-00001" summary="refactor">
+      <created>1694975915557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694975915557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,15 +277,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="384" y="117" key="#Project_Structure" timestamp="1694969113409">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
     <state x="384" y="117" key="#Project_Structure/0.25.1792.1027@0.25.1792.1027" timestamp="1694969113409" />
-    <state x="334" y="258" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1694969054756">
+    <state x="480" y="141" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1694978920937">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state x="334" y="258" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694969054756" />
+    <state x="480" y="141" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694978920937" />
     <state x="709" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1694970628689">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
@@ -349,38 +302,38 @@
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
     <state x="634" y="289" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694822659381" />
-    <state width="1750" height="342" key="GridCell.Tab.0.bottom" timestamp="1694971111120">
+    <state width="1317" height="276" key="GridCell.Tab.0.bottom" timestamp="1694978924999">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111120" />
-    <state width="1750" height="342" key="GridCell.Tab.0.center" timestamp="1694971111119">
+    <state width="1317" height="276" key="GridCell.Tab.0.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1694978924999" />
+    <state width="1317" height="276" key="GridCell.Tab.0.center" timestamp="1694978924999">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.center/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111119" />
-    <state width="1750" height="342" key="GridCell.Tab.0.left" timestamp="1694971111118">
+    <state width="1317" height="276" key="GridCell.Tab.0.center/0.25.1792.1027@0.25.1792.1027" timestamp="1694978924999" />
+    <state width="1317" height="276" key="GridCell.Tab.0.left" timestamp="1694978924999">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.left/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111118" />
-    <state width="1750" height="342" key="GridCell.Tab.0.right" timestamp="1694971111119">
+    <state width="1317" height="276" key="GridCell.Tab.0.left/0.25.1792.1027@0.25.1792.1027" timestamp="1694978924999" />
+    <state width="1317" height="276" key="GridCell.Tab.0.right" timestamp="1694978924999">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.0.right/0.25.1792.1027@0.25.1792.1027" timestamp="1694971111119" />
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom" timestamp="1694971067435">
+    <state width="1317" height="276" key="GridCell.Tab.0.right/0.25.1792.1027@0.25.1792.1027" timestamp="1694978924999" />
+    <state width="1317" height="276" key="GridCell.Tab.1.bottom" timestamp="1694978925000">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067435" />
-    <state width="1750" height="342" key="GridCell.Tab.1.center" timestamp="1694971067434">
+    <state width="1317" height="276" key="GridCell.Tab.1.bottom/0.25.1792.1027@0.25.1792.1027" timestamp="1694978925000" />
+    <state width="1317" height="276" key="GridCell.Tab.1.center" timestamp="1694978925000">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.center/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067434" />
-    <state width="1750" height="342" key="GridCell.Tab.1.left" timestamp="1694971067434">
+    <state width="1317" height="276" key="GridCell.Tab.1.center/0.25.1792.1027@0.25.1792.1027" timestamp="1694978925000" />
+    <state width="1317" height="276" key="GridCell.Tab.1.left" timestamp="1694978924999">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.left/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067434" />
-    <state width="1750" height="342" key="GridCell.Tab.1.right" timestamp="1694971067435">
+    <state width="1317" height="276" key="GridCell.Tab.1.left/0.25.1792.1027@0.25.1792.1027" timestamp="1694978924999" />
+    <state width="1317" height="276" key="GridCell.Tab.1.right" timestamp="1694978925000">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
-    <state width="1750" height="342" key="GridCell.Tab.1.right/0.25.1792.1027@0.25.1792.1027" timestamp="1694971067435" />
+    <state width="1317" height="276" key="GridCell.Tab.1.right/0.25.1792.1027@0.25.1792.1027" timestamp="1694978925000" />
     <state width="232" height="457" key="HiddenNamespacesPopup" timestamp="1694968299353">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
@@ -389,6 +342,10 @@
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
     <state x="754" y="245" key="RollbackChangesDialog/0.25.1792.1027@0.25.1792.1027" timestamp="1694821247987" />
+    <state x="496" y="262" key="Vcs.Push.Dialog.v2" timestamp="1694975925217">
+      <screen x="0" y="25" width="1792" height="1027" />
+    </state>
+    <state x="496" y="262" key="Vcs.Push.Dialog.v2/0.25.1792.1027@0.25.1792.1027" timestamp="1694975925217" />
     <state x="597" y="264" width="597" height="548" key="find.popup" timestamp="1694975270714">
       <screen x="0" y="25" width="1792" height="1027" />
     </state>
@@ -425,7 +382,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/flapkap/demo/controller/PurchaseControllerIntegrationTest.java</url>
-          <line>56</line>
+          <line>34</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
